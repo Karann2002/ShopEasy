@@ -7,7 +7,7 @@ import {
 
 const AccSideBar = () => {
   const navigate = useNavigate();
-  const location = useLocation(); // To highlight active tab
+  const location = useLocation();
 
   const handleLogout = () => {
     localStorage.clear();
