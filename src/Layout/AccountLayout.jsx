@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Components/Common/Navbar';
 import Productlist from '../Components/Common/Product/Productlist';
-import AccSideBar from '../Components/Common/Account/AccSideBar';
+import AccSideBar from '../Components/Common/Account/AccSidebar';
 
 const AccountLayout = () => {
   return (
